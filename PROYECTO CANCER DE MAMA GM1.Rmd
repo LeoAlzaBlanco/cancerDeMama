@@ -152,7 +152,7 @@ print(Resumen_Tabla_1)
 ### Gráficos de resultados de edad de diagnóstico y tipo de cirugía
 
 
-````{r grafico edad de diagnóstico y tipo de cirugia,fig.cap = "Figura 1. Boxplot de la edad de diagnóstico según el tipo de cirugía", echo=FALSE}
+````{r grafico edad de diagnóstico y tipo de cirugia,fig.cap = "Figura 1. Boxplot de la edad de diagnóstico según el tipo de cirugía", echo=TRUE}
 ggplot(datos_filtrados_1,
        aes(x = type_of_breast_surgery,
            y = age_at_diagnosis,
@@ -371,4 +371,5 @@ Los resultados obtenidos a partir de los análisis estadísticos, nos indican qu
 
 # 7. Referencias
 Se han utilizado los datos de METABRIC [@raghadalharbi_2020]
+
 
