@@ -213,7 +213,7 @@ Resumen_Tabla_2 <- datos_filtrados_2 %>%
     SD = sd(tumor_size, na.rm = TRUE),
     Mínimo = min(tumor_size, na.rm = TRUE),
     Máximo= max(tumor_size, na.rm = TRUE)) 
-kable(Resumen_Tabla_1, 
+kable(Resumen_Tabla_2, 
       caption = "Tabla 2. Estadísticas descriptivas del tamaño del tumor")
 print(Resumen_Tabla_2)
 ```
@@ -281,7 +281,7 @@ Resumen_Tabla_3 <- datos_filtrados_3 %>%
     SD = sd(overall_survival_months, na.rm = TRUE),
     Mínimo = min(overall_survival_months, na.rm = TRUE),
     Máximo= max(overall_survival_months, na.rm = TRUE)) 
-kable(Resumen_Tabla_1, 
+kable(Resumen_Tabla_3, 
       caption = "Tabla 3. Estadísticas descriptivas de los meses de supervivencia")
 print(Resumen_Tabla_3)
 ```
@@ -371,5 +371,6 @@ Los resultados obtenidos a partir de los análisis estadísticos, nos indican qu
 
 # 7. Referencias
 Se han utilizado los datos de METABRIC [@raghadalharbi_2020]
+
 
 
